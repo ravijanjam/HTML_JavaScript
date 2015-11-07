@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<!-- HTML tag for refresh the page -->
+	<meta http-equiv="refresh" content="300">
+	<title>Chart.js demo</title>
+	
+<script>
+	document.write(Date());
+</script>
+	<!-- import plugin script -->
+	<script src='../Chart.min.js'></script>
+	<script src='../jquery-2.1.3.js'></script>
+	<p> Text goes here  </p>
+	
+</head>
+
+<body>
+
+<!-- line chart canvas element -->
+<canvas id="buyers" width="600" height="400"></canvas>
+
+<!-- not working -->
+<canvas id="gap1" width=50 height=50> </canvas>
+
+<!-- pie chart canvas element -->
+<canvas id="countries" width="600" height="400"></canvas>
+
+<!-- bar chart canvas element -->
+<canvas id="income" width="600" height="400"></canvas>
+
+<!-- radar chart canvas element -->
+<canvas id="radar" width="600" height="400"></canvas>
+
+
+<p id="demo">JavaScript can change HTML content.</p>
+<script src='JSChart_003_01.js'>
+
+	document.getElementById("demo").innerHTML = pieData[2]["value"];
+</script>
+
+</body>
+</html>

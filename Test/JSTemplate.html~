@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<p> This is a template </p>
+	</head>
+
+	<body><script src ="sample.js"></script>
+		
+		<script>
+			alert(_array['Greet'])
+			alert("alert for a template");
+		</script>
+
+	
+	</body>
+</html>
+	

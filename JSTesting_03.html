@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<p> This is a template </p>
+		<script src=jquery-2.1.3.js> </script>
+		<script src='testJSON_01.json'></script>
+	</head>
+
+	<body>
+
+		<script>
+			var p = testJSON_01.element;
+			alert("p"+p);
+			$(document).ready(function(){
+			alert("alert for a template");
+			var s = '{value: 20,  color:"#878BB6" },{value : 40,  color : "#4ACAB4"}';
+			var data = {};
+			$.get("testJSON.txt", function myFunc(data){
+				alert(data);
+				return data;});
+			alert(data);
+			var arr = eval('[' + s + ']');
+			alert(arr[0].value + arr[1].value + arr[0].color);
+		});
+
+
+		alert("outside document ready: " + data);
+		</script>
+
+		<script>
+			  var scene={};
+			    $.getJSON('testJSON.json', function(data) { 
+				      scene=data;
+					  }); 
+			   alert("From scene: " + scene);
+	        </script>
+	
+	</body>
+</html>
+	

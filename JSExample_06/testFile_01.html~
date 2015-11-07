@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../jquery-2.1.3.js"></script>
+		<p> This is a template </p>
+		<p> Testing purposes  </p>
+	</head>
+
+	<body>
+
+		<script>
+			alert("alert for a template");
+
+		//	data2 = eval('['+ ex_pieData + ']');
+		var data2, ex_pieData;
+
+			$.get("testJSON.txt",function(ex_pieData){
+				alert("Data from JavaScript file: " +ex_pieData + "typeof object " + typeof ex_pieData);
+			return ex_pieData;
+		      });
+
+		
+			alert("Values in data2 outside get method:" +ex_pieData);
+
+
+		</script>
+
+		<script>
+jQuery.extend({
+    getValues: function(url) {
+        var result = null;
+        $.ajax({
+            url: url,
+            type: 'get',
+            dataType: 'xml',
+            async: false,
+            success: function(data) {
+                result = data;
+            }
+        });
+       return result;
+    }
+});
+
+		</script>
+	
+
+	</body>
+</html>
+	
