@@ -1,0 +1,14 @@
+OniaCent030, OniaCent30100, OniaTnP, MinimumBias, UCC, Q2, HighPtPhoton40AndZ, HighPtPeripheralJetsPhotons, HighPtLowerJetsPhotons, HighPtJet100, HeavyFlavour, FullTrack, EWQExo
+OniaCent030, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 0
+OniaCent30100, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0
+OniaTnP, 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0, 0
+MinimumBias, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+UCC, 0, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 0
+Q2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+HighPtPhoton40AndZ,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+HighPtPeripheralJetsPhotons, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+HighPtLowerJetsPhotons, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+HighPtJet100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+HeavyFlavour,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+FullTrack, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+EWQExo,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
