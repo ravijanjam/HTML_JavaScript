@@ -1,0 +1,14 @@
+		.container {
+			width : 500px;
+			}
+
+		.left {
+			width:250px
+			float:left;
+			}
+		.right {
+
+			width:250px
+			float:right;
+			}
+	

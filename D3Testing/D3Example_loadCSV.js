@@ -12,9 +12,10 @@
 
 		console.log("Test D3 program")
 
+		var dummyData = [1, 2, 3, 9, 22, 58];
 		 //Another sample
 		 var p = d3.select("body").selectAll("p")
-		 	.data([1, 2, 3, 4, 5, 6])
+		 	.data(dummyData)
 			.enter()
 			.append("p")
-			.text("meow meow");
+			.text(function(d){return d});
